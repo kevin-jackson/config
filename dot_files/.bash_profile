@@ -16,8 +16,6 @@ fi
 # Required for subl
 PATH="~/bin:$PATH"
 
-source ~/.git-prompt.sh
-
 GITPS1="\$(__git_ps1 \"(%s)\")"
 
 # Load RVM into a shell session *as a function*
@@ -71,5 +69,3 @@ alias hl="heroku local"
 
 export NVM_DIR="$HOME/.nvm"
   . "/usr/local/opt/nvm/nvm.sh"
-
-export PATH="$(brew --prefix qt@5.5)/bin:$PATH"
