@@ -1,0 +1,18 @@
+[user]
+  name = Kevin Jackson
+  email = kevin.jackson@live.com.au
+[alias]
+  br = branch
+  co = checkout
+  cp = cherry-pick
+  df = diff --color
+  st = status --porcelain
+  fuckit = reset head --hard
+  fi = reset head --hard
+  rb = rebase --committer-date-is-author-date
+[merge]
+  tool = opendiff
+[push]
+  default = upstream
+[core]
+  excludesfile = /Users/kjackson/.gitignore
